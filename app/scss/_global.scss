@@ -1,0 +1,12 @@
+.container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  @extend %ubuntu-400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2c5282;
+}

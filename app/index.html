@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div id="page-preloader" class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__title">Live weather</div>
+          <div class="header__btns">
+            <div class="header__btn-message"></div>
+            <button class="header__btn-find">Find me</button>
+            <form class="header__search">
+              <button class="header__search-button">
+                <img class="header__search-icon" src="./images/icon/search.png" alt="">
+              </button>
+              <input class="header__search-input" type="text" placeholder="Search city">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header__data-box">
+        <div class="header__city">
+          <div class="header__city-descr">Weather on 5 days</div>
+          <h2 class="header__city-name">
+            <img class="header__city-flag" src="" alt="">
+          </h2>
+
+        </div>
+        <div class="header__current">
+          <div class="header__current-time"></div>
+          <div class="header__current-data"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="days">
+    <div class=" container">
+      <div class="days__list"></div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <div class="content__sun">
+        <div class="content__day"></div>
+        <div class="content__sun-info">
+          <img class="content__sun-img" src="images/icon/sunrise.png" alt="">
+          <div class="content__sun-box">
+            <div class="content__sun-name">Sunrise</div>
+            <div class="content__sun-descr--sunrise"></div>
+          </div>
+        </div>
+        <div class="content__sun-info">
+          <img class="content__sun-img" src="images/icon/sunset.png" alt="">
+          <div class="content__sun-box">
+            <div class="content__sun-name">Sunset</div>
+            <div class="content__sun-descr--sunset"></div>
+          </div>
+        </div>
+      </div>
+      <div class="content__items"></div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer-text">
+          <h3 class="footer__title">LIVE WEATHER</h3>
+          <div class="footer__descr">5 days weather forecast</div>
+        </div>
+
+        <div class="footer__links">
+          <a class="footer__link" href="">
+            <img class="footer__link-icon" src="images/icon/telegram.png" alt="">
+          </a>
+          <a class="footer__link" href="">
+            <img class="footer__link-icon" src="images/icon/facebook.png" alt="">
+          </a>
+          <a class="footer__link" href="">
+            <img class="footer__link-icon" src="images/icon/linkedin.png" alt="">
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="footer__rights">© live-weather.com 2021 - All rights reserved</div>
+    </div>
+  </footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

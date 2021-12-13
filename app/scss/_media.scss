@@ -1,0 +1,315 @@
+@media (max-width: 1050px) {
+  .header {
+    &__top {
+      position: relative;
+    }
+
+    &__btn-message {
+      position: absolute;
+      bottom: -3px;
+      font-size: 16px;
+    }
+  }
+
+  .days {
+    .slick-slide {
+      padding: 0 10px;
+    }
+
+    &__item {
+      padding: 15px 10px;
+    }
+
+    &__item-descr {
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  .content {
+    &__item-descr {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    &__city-flag {
+      max-width: 400px;
+    }
+
+    &__current-time {
+      font-size: 36px;
+      line-height: 40px;
+    }
+  }
+
+  .days {
+    &__item-text {
+      max-width: 160px;
+      width: 100%;
+      text-align: center;
+    }
+
+    &__item-descr {
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    &__item-temp {
+      margin-bottom: 10px;
+      font-size: 56px;
+      line-height: 60px;
+    }
+
+    &__item-imgbox {
+      width: 150px;
+      height: 150px;
+      padding: 5px;
+    }
+
+    &__item-wind,
+    &__item-hum {
+      span {
+        margin: 0 15px;
+      }
+    }
+  }
+
+  .content {
+    &__item {
+      padding: 10px 15px;
+      font-size: 20px;
+      line-height: 22px;
+      // flex-wrap: wrap;
+    }
+
+    &__item-box {
+      min-width: 285px;
+    }
+
+    &__item-wind {
+      max-width: 110px;
+    }
+
+    &__item-hum {
+      max-width: 50px;
+    }
+
+    &__item-temp {
+      max-width: 40px;
+    }
+
+    &__day {
+      font-size: 28px;
+      line-height: 32px;
+    }
+
+    &__sun {
+      width: 500px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .content {
+    &__item {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 5px 10px;
+    }
+
+    &__item-box {
+      min-width: 270px;
+    }
+
+    &__item-img {
+      margin: 0 10px;
+      width: 60px;
+    }
+
+    &__day {
+      display: none;
+    }
+
+    &__sun {
+      padding: 20px 10px;
+      width: 320px;
+    }
+
+    &__item-descr {
+      font-size: inherit;
+    }
+  }
+
+  .header {
+    &__search-input {
+      width: 150px;
+    }
+
+    &__city-name {
+      font-size: 22px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .header {
+    &__inner {
+      display: block;
+      text-align: center;
+    }
+
+    &__title {
+      margin-bottom: 20px;
+    }
+
+    &__btns {
+      justify-content: space-between;
+    }
+
+    &__btn-find {
+      margin-right: 0;
+      margin-left: 10px;
+    }
+
+    &__search {
+      order: -1;
+    }
+
+    &__search-input {
+      width: 100%;
+    }
+
+    &__data-box {
+      display: block;
+    }
+
+    &__current-data {
+      text-align: right;
+    }
+  }
+
+  .content {
+    &__item {
+      flex-wrap: wrap;
+      height: 100px;
+      justify-content: left;
+      padding: 10px 20px;
+    }
+
+    &__sun {
+      margin-bottom: 30px;
+    }
+
+    &__item-box {
+      justify-content: start;
+      width: 100%;
+    }
+
+    &__item-img {
+      margin: 0 10px;
+      width: 60px;
+    }
+
+    &__item-descr {
+      max-width: none;
+      width: auto;
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .header {
+    &__current-data {
+      font-size: 20px;
+    }
+  }
+
+  .content {
+    &__item {
+      justify-content: center;
+      height: 120px;
+      padding: 5px 10px;
+    }
+
+    &__sun {
+      flex-direction: column;
+      width: 280px;
+      padding: 10px;
+    }
+
+    &__sun-info {
+      align-items: center;
+    }
+
+    &__sun-name {
+      margin-right: 10px;
+    }
+
+    &__sun-box {
+      display: flex;
+    }
+
+    &__item-img {
+      order: 0;
+    }
+
+    &__item-temp {
+      font-size: 30px;
+      font-weight: 600;
+      order: 0;
+    }
+
+    &__item-descr {
+      width: 100%;
+      justify-content: center;
+      font-weight: 600;
+    }
+
+    &__item-direction {
+      margin-right: 5px;
+    }
+
+    &__item-wind {
+      margin-right: 0;
+    }
+
+    &__item-box {
+      justify-content: center;
+      min-width: none;
+    }
+  }
+
+  .days {
+    &__item-text {
+      max-width: 100%;
+    }
+
+    &__item-wind,
+    &__item-hum {
+      span {
+        margin: 0 30px;
+      }
+    }
+  }
+
+  .footer {
+    &__title {
+      font-size: 24px;
+    }
+  }
+
+  .error {
+    &__title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+}
